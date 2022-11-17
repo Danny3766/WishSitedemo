@@ -1,0 +1,19 @@
+<!-- view helper -->
+<%= form_with(model: wish_list) do |form| %>
+<!-- form helper -->
+<div>
+    <%= form.label :title%>
+    <%= form.text_field :title%>
+</div>
+
+<div>
+    <%= form.label :description%>
+    <%= form.text_area :description %>
+</div>
+
+<div>
+    <%= form.label :submit%>
+    <%= form.submit%>
+</div>
+    
+<% end %>

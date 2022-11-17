@@ -1,0 +1,13 @@
+<h1>首頁</h1>
+
+<a href="/about">關於我們</a>
+<%= link_to "關於我們", "/about" %>
+<%= link_to "關於我們", about_path %>  <!-- 好處改網站的網頁名稱時，可以只改一個地方整個網站都改好 -->>
+<%= link_to "關於我們", about_url %>   <!-- 絕對路徑是給外部人員使用 -->
+
+<a href="/contact">聯絡我們</a>
+<%= link_to "聯絡我們", "/contact" %>
+<%= link_to "關於我們", contact_path %>
+<%= link_to "關於我們", contact_url %>
+
+<%= link_to "新增願望清單", make_a_wish_path %>
